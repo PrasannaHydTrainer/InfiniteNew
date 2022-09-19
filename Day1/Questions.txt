@@ -1,0 +1,22 @@
+https://github.com/PrasannaHydTrainer/InfiniteNew/
+
+1) Write a program to convert centigrade to radians
+
+2) Write a Program accept 5 subjects marks and display total and avegage, 
+*** If all subjects he crosses 35 marks then only show the score else print as failed ***
+
+3) Write a Program to implement sample current bill, as take no.of units 
+
+first 90 units 1rs
+
+91 to 150 units 1.5 rs
+
+151 to 200 units 2 rs
+
+201 to 240 units 2.5 rs
+
+240 units after 3 rs
+
+means if you enter units as 180 means 
+
+(90*1) +  (60*1.5) + (30*2)
