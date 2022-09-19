@@ -1,0 +1,179 @@
+Object Oriented Programming :
+_____________________________
+
+It is an approach that provides a way of modularizing programming, that which can be used to create small partition memory area for both data and objects, which are to be used as templates for creating copies of such modules on demand. 
+
+Object : An object is a real world entity, that which possess 3 characterstics known as 
+
+	(i) State
+
+	(ii) Behviour
+
+	(iii) Identity
+
+OOPS features : 
+________________
+
+	(i) Encapsulation  : Wrapping up of data and functions into a single unit known as encapsulation.
+
+	(ii) Abstraction : Hiding the irrelevant details of an object, that do not contribute to its essential 			characterstics known as abstraction.
+
+		*** Encapsulation focuses on showing the relevant details, where abstraction focuses on 
+			hiding the irrelevant details ***
+
+	(iii) Inheritance : Deriving a new entity from already existing entity known as inheritance,
+		through inheritance we can reduce the size of the program. 
+
+	(iv) Polymorphism : The ability to take more than one form known as polymorphism. 
+	
+Class : A class is a template or blueprint, that which contains combination of data members and member functions. Members of the class can be accessable by using instance of the class. 
+
+class class_name
+{
+    data members;
+    member functions;
+}
+
+Why Java : 
+__________
+
+
+1) Platform Independence
+
+2) Console Applications
+
+3) Windows Applications
+
+4) Web Applications
+
+5) Service Oriented
+
+6) Packages : Contains group of related classes and interfaces that which belongs to one common group, if you want to overcome the naming conflicts between classes, then we need the help of packages. 
+
+
+Java Features : 
+_________________
+
+1) Simple : Java uses simple C/C++ syntaxes, as a programmer no need to take care of internal details like memory management etc...as how much memory allocated to run the program, the same amount of memory will be reallocated automatically.
+
+2) Object Oriented : java supports all object oriented programming features.
+
+3) Compiled and Interpreted : Java programs are compiled first, during compilation java code will be converted into bytecode, then .class file will be created. In interpretation it reads the bytecode line by line and executes. 
+
+4) Portable : Ability to run the program without changing source code, java programs are programs that can run on any env, without changing the source code. 
+
+5) Securable : There are various levels of security as
+
+	(i) Compiler Level
+
+	(ii) Bytecode Level
+
+	(iii) Class Loader Level
+
+6) Distributed : By using java, we can implement all distributed and robust applications. 
+
+
+Java Architecture : 
+______________________
+
+1) Java Program : Java code that which stores with extension .java
+
+2) Java Class : Java code after compilation, its converted into bytecode, then .class file will be created. 
+
+3) JVM (Java Virtual Machine)
+
+	1) Class loader : Used to load all classes that which are required to run the program, there are 2 types of classes known as 
+
+		(i) primordial class loader : used to load all system classes which are reqd to run the 			program.
+
+		(ii) class loader objects : used to load all custom classes which are reqd to run the prog.
+
+	2) JIT Compiler : Used to convert bytecode into CPU specific format.
+
+	3) Execution Manager  : Contains queue of programs which are ready to run where we can execute program. before execution it needs to undergone security authentication. 
+
+
+4) Java Api : It provides runtime env, that which allows you to run the java program.
+
+Java Data Types : 
+__________________
+
+There are 2 types of data types as
+
+1) value types : int, float, double, char, boolean 
+
+2) reference types : String, Object and Custom Types 
+
+output statement :
+____________________
+
+System.out.println() : Used to display any value or message. 
+
+	System -> class
+	out -> console
+	println() -> Method.
+
+
+System.out.println("Welcome to Java...");
+
+You can define method main() as
+
+public static void main(String[] args) {
+...
+...
+...
+}
+
+main() method must be static as no class object will call the method main. 
+
+Access Modifiers : 
+___________________
+
+In java, we have various access modifiers as 
+
+1) private : Allows you to access members within current class. 
+
+2) public  : Allows you to access members in entire application.
+
+3) protected : Allows you to access members within current/derived class. 
+
+4) friendly : By default java possess friendly access modifier, allows you to access members within all classes of current package. 
+
+You can create an object to the class, as 
+
+class_name obj = new class_name();
+
+
+Control Structures : 
+_____________________
+
+
+Used to define the flow of the program. 
+
+There are 2 types of control structures known as
+
+1) Branching 
+
+	if...else :
+		Executes the statements based on the condition. 
+
+		if (condition) {
+			statement(s);
+		} else {
+			statement(s);
+		}
+
+
+
+2) Looping 
+
+
+
+
+
+
+
+
+
+
+
