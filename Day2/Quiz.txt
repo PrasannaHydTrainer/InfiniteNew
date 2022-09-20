@@ -1,0 +1,66 @@
+int[] a = new int[]{4,23,45,53,22};
+for(int i : a) {
+  System.out.println(a);
+}
+
+________________________________________________________________________________
+
+public class Quiz2 {
+   public static void main(String[] args) {
+         int i;
+	 System.out.println(i);
+   }
+}
+
+______________________________________________________________________________
+
+public class Quiz3 {
+   int i;
+   public static void main(String[] args) {
+       System.out.println(new Quiz3().i);
+   }
+}
+
+___________________________________________________________________________________
+
+public class Quiz4 {
+   static boolean climate;
+   public static void main(String[] args) {
+      System.out.println(climate);
+   }
+}
+
+
+_____________________________________________________________________________________
+public class Quiz5 {
+     int x;
+     public static void show() {
+          System.out.println("x value is " +x);
+     }
+ 
+     public static void main(String[] args) {
+	show();
+     }
+}
+
+_______________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

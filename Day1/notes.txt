@@ -164,8 +164,49 @@ There are 2 types of control structures known as
 		}
 
 
+switch...case : Used to define menu-driven programs. 
+
+switch(expression) {
+   case expression1 : 
+	statement(s);
+	break;
+   case expression2:
+	staetment(s);
+	break;
+   ...
+   ...
+   default {
+      statement(s);
+      break;
+}
+
+
+
+
 
 2) Looping 
+
+while loop : This loop executes all the statement(s) repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop.  For every loop, basically there are 3 phases as 
+
+	(i) Initialization
+
+	(ii) Condition
+
+	(iii) Increment/Decrement 
+
+Initialization performed at the beginnnig of the loop.
+
+Condition performed at the conditional part of the loop.
+
+Increment/Decrement performed before closing the loop. 
+
+for loop : 
+
+This loop executes all the statement(s) repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop. 
+
+for(initialization;condition;increment/decrement) {
+   statement(s);
+}
 
 
 

@@ -1,0 +1,169 @@
+Arrays : 
+________
+
+An array is the finite ordered set of homogeneous elements, means all the elements belongs to same data type. 
+
+All the elements of array are stored in successive memory locations. 
+
+You can declare elements in array as
+
+int[] a = new int[]{5,2,66,323};
+
+a[0]=5;
+a[1]=2;
+a[2]=66;
+a[3]=323;
+
+int[] a = new int[] {45,23,55,32,10};
+//		for(int i=0;i<a.length;i++) {
+//			System.out.println(a[i]);
+//		}
+		for (int i : a) {
+			System.out.println(i);
+		}
+
+
+internal implementation of foreach loop : 
+
+in above loop at first i points to the first element in Array a, after processing first element it checks next element is there or not by using hasMoreElements(), if hasMoreElements() returns true, it moves to the next element by using nextElement(). It repeats as soon as hasMoreElements() returnd true. 
+
+There are 2 types of memories as STACK and HEAP
+
+values types will be stored in STACK memory, and reference types will be stored in HEAP memory. 
+
+enums allows you to store group of constant values. 
+
+
+int x;
+
+x="Hello";
+x=12;
+x=12.5
+
+Boxing and Unboxing : 
+
+The concept of converting value type to reference type known as boxing, and reference type to value type
+known as unboxing. 
+
+Object is type that which can be used for boxing and unboxing. 
+
+Object x;
+x="Hello";
+x=12;
+x=12.5
+
+Method overloading : The concept of using the same method name w.r.t. Different data types and different parameters known as method overloading. Here, the method name must be same, but no.of parameters or type of parameters we are using are different. 
+
+class Test {
+   int a,b;
+   a=5;
+   b=7;
+}
+
+Constructors : 
+_______________
+
+A constructor is a special member, that which used to initialize the member variables of the class, it is special because it has the same name as that of class name. 
+
+Rules : 
+_________
+
+	-> It will not contains any return type
+
+	-> It will not return any value
+
+	-> It will be invoked automatically once the instance of the class created.
+
+	-> A constructor can be overloaded. 
+
+
+There are 2 types of constructors known as 
+
+1) static constructor
+
+	These are called class constructors, which are used to initilize the static variables of the class,
+these constructors are invoked automatically before control reaches the entry point.  These constructors cannot be overloaded.  *** In java, we don't have any static constructor, as static { } acts as static constructor ***
+
+2) instance constructor : These are the constructors that which are invoked automatically once the instance of the class created, these constructors can be overloaded. 
+
+Object is the top level class in java, 
+
+the default package in java is java.lang.Object
+
+Object is having following methods as
+
+	-> hashCode()
+
+	-> getClass()
+
+	-> toString()
+
+	-> equals()
+
+Inheritance : 
+______________
+
+The concept of deriving a new class from already existing class known as inheritance, the class which derived known as derived class, the class from which its derived known as base class. Through inheritance, we can reduce the size of the program. 
+
+class First {
+...
+...
+}
+
+class Second extends First {
+...
+...
+...
+}
+
+super : If you want to pass values from derived class to base class, then we need the help of super keyword. 
+
+it has 2 forms as
+
+1) super as a keyword
+
+2) super as a constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+1) Write a program as multiplication of 2 numbers
+
+Note : 100 digit no * 100 digit no print exact value 
+
+2) Write a Program to display a number in roman format from (1 to 9999)
+
+3) Wrie a program to display a number in english words from (1 to 9999)
+
+example :
+
+123 
+
+one hundered twenty three
+
+4000
+four thousand
+
+4567
+
+Four thousand five hundred sixty seven
+
