@@ -1,0 +1,50 @@
+Create a class as 
+
+Employ
+
+	empno
+        name
+	gender
+	dept
+	desig
+	basic
+
+
+Perform 
+
+1) Add Employ
+
+2) Search Employ
+
+3) Show Employ
+
+4) Delete Employ
+
+5) Update Employ
+
+   empno cannot be negagtive
+   name min 5 chars
+   dept min 3 chars
+   desig min 4 chars
+   basic between 5000 to 80000
+
+
+
+Agent
+   agentId (int)
+   firstName (String)
+   lastName (String)
+   payMode (ENum) YEARLY, HALFYEARLY, QUARTERLY
+   premium  (double)
+
+agentId not negative,
+firstName min. 5 chars
+premium min 10000
+
+
+perform
+
+AddAgent
+ShowAgent
+
+
