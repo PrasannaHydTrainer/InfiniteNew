@@ -12,6 +12,20 @@ public class EmployDAO {
 	Connection connection;
 	PreparedStatement pst;
 	
+	public String addEmploy(Employ employ) 
+			throws ClassNotFoundException, SQLException {
+		connection = ConnectionHelper.getConnection();
+		String cmd = "insert into Employ(name,dept,desig,basic) "
+				+ " values(?,?,?,?)";
+		pst = connection.prepareStatement(cmd);
+		pst.setString(1, employ.getName());
+		pst.setString(2, employ.getDept());
+		pst.setString(3, employ.getDesig());
+		pst.setInt(4, employ.getBasic());
+		pst.executeUpdate();
+		return "Record Inserted...";
+	}
+	
 	public Employ searchEmploy(int empno)
 			throws ClassNotFoundException, SQLException {
 		connection = ConnectionHelper.getConnection();
