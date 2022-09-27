@@ -12,6 +12,37 @@ public class EmployDAO {
 	Connection connection;
 	PreparedStatement pst;
 	
+	public String updateEmploy(Employ employNew) 
+			throws ClassNotFoundException, SQLException {
+		Employ employ = searchEmploy(employNew.getEmpno());
+		if (employ!=null) {
+			String cmd = "update employ set name=?, Dept=?, desig=?, "
+					+ " Basic =? where empno=?";
+			connection = ConnectionHelper.getConnection();
+			pst = connection.prepareStatement(cmd);
+			pst.setString(1, employNew.getName());
+			pst.setString(2, employNew.getDept());
+			pst.setString(3, employNew.getDesig());
+			pst.setInt(4, employNew.getBasic());
+			pst.setInt(5, employNew.getEmpno());
+			pst.executeUpdate();
+			return "Employ Record Updated...";
+		}
+		return "Record Not Found...";
+	} 
+	public String deleteEmploy(int empno)
+			throws ClassNotFoundException, SQLException {
+		Employ employ = searchEmploy(empno);
+		if (employ!=null) {
+			connection = ConnectionHelper.getConnection();
+			String cmd = "delete from Employ where empno=?";
+			pst = connection.prepareStatement(cmd);
+			pst.setInt(1, empno);
+			pst.executeUpdate();
+			return "Record Deleted...";
+		}
+		return "Employ Record Not Found...";
+	}
 	public String addEmploy(Employ employ) 
 			throws ClassNotFoundException, SQLException {
 		connection = ConnectionHelper.getConnection();
