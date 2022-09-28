@@ -10,6 +10,27 @@ public class BankDAO {
 	Connection connection;
 	PreparedStatement pst;
 	
+	public Bank searchAccount(int accountNo) 
+			throws ClassNotFoundException, SQLException {
+		connection = ConnectionHelper.getConnection();
+		String cmd = "select * from Bank where AccountNo=?";
+		pst = connection.prepareStatement(cmd);
+		pst.setInt(1, accountNo);
+		ResultSet rs = pst.executeQuery();
+		Bank bank = null;
+		if(rs.next()) {
+			bank = new Bank();
+			bank.setAccountNo(rs.getInt("accountNo"));
+			bank.setFirstName(rs.getString("firstName"));
+			bank.setLastName(rs.getString("lastName"));
+			bank.setCity(rs.getString("city"));
+			bank.setState(rs.getString("state"));
+			bank.setAmount(rs.getInt("amount"));
+			bank.setCheqFacil(rs.getString("cheqFacil"));
+			bank.setAccountType(rs.getString("accountType"));
+		}
+		return bank;
+	}
 	public String createAccount(Bank bank) 
 			throws ClassNotFoundException, SQLException {
 		int accountNo = generateAccountNo();
