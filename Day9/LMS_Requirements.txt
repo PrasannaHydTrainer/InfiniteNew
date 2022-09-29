@@ -1,0 +1,19 @@
+ApplyLeave
+____________
+
+Accept
+
+empId, leaveStartDate, leaveEndDate, leaveReason, leaveType
+
+for who is top level manager leaveStaus is APPROVED remaining PENDING
+
+validations: 
+____________
+
+        -> LeaveStartDate cannot be yesterday
+	-> LeaveEndDate cannot be yesterday
+	-> LeaveStartDate cannot be greater than LeaveEndDate
+	-> noOfDays must be greater than LeaveAvail
+
+Once insert record in leave_history update the leaveBalance
+
