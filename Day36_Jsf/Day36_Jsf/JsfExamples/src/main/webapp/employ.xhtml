@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+ <h:body>
+      <h1>Employ Form</h1>
+ 
+    <h:form>
+        Employ No : 
+        <h:inputText value="#{employ.empno}" />
+        <br/><br/>
+        Employ Name : 
+        <h:inputText value="#{employ.name}"/> <br/><br/>
+        Department : 
+        <h:selectOneMenu value="#{employ.dept}">
+   	<f:selectItem itemValue="Java" itemLabel="Java" />
+   	<f:selectItem itemValue="Dotnet" itemLabel="Dotnet" />
+   	<f:selectItem itemValue="Angular" itemLabel="Angular" />
+</h:selectOneMenu> <br/><br/>
+Gender : 
+<h:selectOneRadio value="#{employ.gender}">
+   <f:selectItem itemValue="Male" itemLabel="Male" />
+   <f:selectItem itemValue="Female" itemLabel="Female" />           
+</h:selectOneRadio>
+		Designation : 
+		<h:selectOneMenu value="#{employ.desig}">
+   	<f:selectItem itemValue="Programmer" itemLabel="Programmer" />
+   	<f:selectItem itemValue="Manager" itemLabel="Manager" />
+   	<f:selectItem itemValue="TeamLead" itemLabel="Team Lead" />
+</h:selectOneMenu> <br/><br/>
+        Basic : 
+        <h:inputText value="#{employ.basic}"/>
+        <h:commandButton value="Submit" action="showemploy" />
+      </h:form>
+ 
+    </h:body>
+</html>

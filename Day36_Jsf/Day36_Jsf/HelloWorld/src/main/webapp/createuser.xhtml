@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+	 xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+ 
+    <h:body>
+      <h1>Create User</h1>
+ 
+    <h:form>
+        User Name : 
+        <h:inputText value="#{user.name}" />
+        
+        <br/><br/>
+        Email  : 
+		<h:inputText value="#{user.email}" />
+        Password : 
+		<h:inputText value="#{user.password}" />
+		Gender : 
+<h:selectOneRadio value="#{user.gender}">
+   <f:selectItem itemValue="M" itemLabel="Male" />
+   <f:selectItem itemValue="F" itemLabel="Female" />           
+</h:selectOneRadio>
+		Address : 
+				<h:inputText value="#{user.address}" />
+		
+ <br/><br/>
+      <h:commandButton value="Save" action="#{user.save()}" class="btn btn-success" style="width: 80px;"/>
+ 
+   <div class="col-sm-2">
+                        <h:link outcome="employShow" value="View Users Record List" class="btn btn-primary" />
+                    </div>
+      </h:form>
+ 
+    </h:body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>User Details</title>
+          <style type="text/css">
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even){background-color: #f2f2f2}
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+        </style>
+    </h:head>
+    <h:body>
+        <h:form>
+            <center>
+                <h2><h:outputText value="User Records"/></h2>
+            </center>
+<h:dataTable value="#{user.usersList()}" var="employee">
+   <h:column>            
+      <f:facet name="header">Name</f:facet>            
+      #{employee.name}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Email</f:facet>
+      #{employee.email}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Password</f:facet>
+      #{employee.password}
+   </h:column>
+   <h:column>
+      <f:facet name="header">Gender</f:facet>
+      #{employee.gender}
+   </h:column>
+</h:dataTable>
+            <center><h:commandButton action = "createuser.xhtml?faces-redirect=true" value="Create New User" class="btn btn-success"></h:commandButton> </center>
+        </h:form>
+    </h:body>
+</html>
