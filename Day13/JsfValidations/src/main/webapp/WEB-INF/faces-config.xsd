@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://xmlns.jcp.org/xml/ns/javaee">
+  <xs:element name="faces-config">
+    <xs:complexType>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

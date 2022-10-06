@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+	<h:body>
+		<center>
+                <h2><h:outputText value="Employ Records"/></h2>
+            </center>
+        <h:dataTable value="#{employDAO.showEmploy()}" var="e" border="3">
+        	    <h:column>
+                    <f:facet name="header">Employ No</f:facet>
+                    <h:outputText value="#{e.empno}"/>
+                </h:column>
+        </h:dataTable>
+                    <center><h:commandButton action = "CreateEmploy.xhtml?faces-redirect=true" value="Create Employ" class="btn btn-success"></h:commandButton> </center>
+        
+	</h:body>
+</html>
