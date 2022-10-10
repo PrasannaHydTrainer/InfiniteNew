@@ -9,6 +9,54 @@ import java.util.List;
 
 public class LibraryDAO {
 
+	public int issueOrNot(String userName, int bookId) throws ClassNotFoundException, SQLException {
+		Connection connection = ConnectionHelper.getConnection();
+		String sql = "select count(*) cnt from TranBook where UserName=? and BookId=?";
+		PreparedStatement pst = connection.prepareStatement(sql);
+		pst.setString(1, userName);
+		pst.setInt(2, bookId);
+		ResultSet rs = pst.executeQuery();
+		rs.next();
+		int count =rs.getInt("cnt");
+		return count;
+	}
+	
+	public List<TranBook> issueBooks(String user) throws ClassNotFoundException, SQLException {
+		Connection connection = ConnectionHelper.getConnection();
+		String sql = "select * from TranBook where UserName=?";
+		PreparedStatement pst = connection.prepareStatement(sql);
+		pst.setString(1, user);
+		ResultSet rs = pst.executeQuery();
+		TranBook tranBook = null;
+		List<TranBook> tranBookList = new ArrayList<TranBook>();
+		while(rs.next()) {
+			tranBook = new TranBook();
+			tranBook.setBookId(rs.getInt("BookId"));
+			tranBook.setUserName(user);
+			tranBook.setFromDate(rs.getDate("FromDate"));
+			tranBookList.add(tranBook);
+		}
+		return tranBookList;
+	}
+	
+	public String issueBook(String userName, int bookId) throws ClassNotFoundException, SQLException {
+		int count = issueOrNot(userName, bookId);
+		if (count==0) {
+			Connection connection = ConnectionHelper.getConnection();
+			String sql = "Insert into TranBook(UserName,BookId) values(?,?)";
+			PreparedStatement pst = connection.prepareStatement(sql);
+			pst.setString(1, userName);
+			pst.setInt(2, bookId);
+			pst.executeUpdate();
+			sql="Update Books set TotalBooks=TotalBooks-1 where id=?";
+			pst = connection.prepareStatement(sql);
+			pst.setInt(1, bookId);
+			pst.executeUpdate();
+			return "Book with Id " +bookId + " Issued Successfully...";
+		} else {
+			return "Book Id " +bookId+ " for User " +userName + " Already Issued...";
+		}
+	}
 	public List<Books> searchBooks(String searchType, String searchValue) throws ClassNotFoundException, SQLException {
 		String sql;
 		boolean isValid=true;
