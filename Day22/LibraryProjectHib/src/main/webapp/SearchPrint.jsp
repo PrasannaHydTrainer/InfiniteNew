@@ -17,7 +17,7 @@
 	<jsp:useBean id="beanDao" class="com.infinite.hib.LibraryDAO"/>
 		<br/> Select books to issue: <br/> 
 	
-	<form action="Issue.jsp" method="post">
+	<form action="Issue.jsp" method="get">
 	<table border='3'>
 		<tr>
 		 <th>Id </th>
@@ -36,6 +36,11 @@
 	  		<td><c:out value="${books.edition}"/> </td>
 	  		<td><c:out value="${books.dept}"/> </td>
 	  		<td><c:out value="${books.totalBooks}"/> </td>
+	  		<td>
+	  			<c:if test="${books.totalBooks > 0}">
+	  				<input type="checkbox" name="bookid" value="${books.id}" />
+	  			</c:if>
+	  		</td>
 	  	</tr>
 	  </c:forEach>
 	 </table>

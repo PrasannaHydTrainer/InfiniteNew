@@ -11,5 +11,6 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
    		<mapping class="com.infinite.hib.LibUsers"/>
    		<mapping class="com.infinite.hib.Books"/>
+   		<mapping class="com.infinite.hib.TranBook"/>
     </session-factory>
 </hibernate-configuration>
