@@ -10,5 +10,6 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
    		<mapping class="com.infinite.hib.LibUsers"/>
+   		<mapping class="com.infinite.hib.Books"/>
     </session-factory>
 </hibernate-configuration>
