@@ -1,0 +1,49 @@
+Canteen Management
+
+Maintain CustomerDetails, VendorDetails, RestaurantDetais, MenuDetails, CustomerOrders, VendorOrders, 
+CustomerWalletDetails, PlaceAnOrder Once Placed AcceptOrReject Order 
+
+
+Bus Booking
+
+Maintain Bus Details (Type of Service (Regular/WeekEnd/AlternateDays), TypeofBus (AC/SLeeper/Seater/Non-AC, NoOfSeats, Price)
+AddBus, Booking, Payment Details, History, Cancel Bus, 
+
+
+Hotel Management : 
+___________________
+
+HotelDetails, RoomDetails, CustomerDetails, BookingDetails, PaymentDetails
+
+
+Hospital Management 
+
+Maintain
+  -> DoctorDetails
+  -> PatientDetails
+  -> TreatmentDetails
+  -> PaymentDetails
+  -> Visited(vs)Admitted Patient Details
+  -> Discharge Reports
+  -> Medical History 
+
+Inventory Management 
+
+StockDetails
+CustomerDetails
+OrderDetails
+BillingDetails
+CancelledOrders
+RejectedOrders
+DelayedOrders 
+
+Insurance Management 
+
+PolicyDetails(PolicyID, PolicyType,Premium,PayMode,PolicyExpiryDate etc)
+CustomerDetails, 
+PolicyBookingDetails,
+PolicyPaymentDetails
+PolicyLoanDetails
+PolicySurrenderDetails,
+LapsedPolicies 
+
