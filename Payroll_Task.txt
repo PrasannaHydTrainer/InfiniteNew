@@ -1,0 +1,36 @@
+EmployPayroll Project
+______________________
+
+Employ(Empno,Ename,Gender,Salary,Hra,Da,Ta,Tax,Pf,Gross,NetPay,LeaveAvailable)
+
+hra -> 2% of sal
+da -> 1.25% of sal
+ta -> 0.95% of sal
+tax -> 2.3% of sal
+pf -> 3% of sal
+
+gross = basic+hra+da+ta
+netpay = gross-tax-pf
+
+AddEmploy
+
+LeaveAvailable always 16 days. 
+
+LeaveTable(LeaveID, Empno, LeaveStartDate, LeaveEndDate, NoOfDays,LeaveReason, lossOfPay)
+
+--> validations
+
+In month an employ cannot take more than 3 leaves if so lop to be applied 
+as leaveBalance to be updated automatically 
+LossofPay to be calculated 
+
+
+
+Modules to be done
+___________________
+
+1) Add Employ
+2) Apply Leave
+3) PaySlip
+
+PaySlip contains new value as takeHome as net-lossOfPay
