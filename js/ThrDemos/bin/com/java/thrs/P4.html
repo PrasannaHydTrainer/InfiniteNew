@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var sname =frmData.sname.value;
+	//	alert(sname);
+		document.getElementById("msg").innerHTML="Name is " +sname;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="get" name="frmData">
+		<center>
+			Name : 
+			<input type="text" name="sname" /> <br/><br/>
+			<input type="button" value="Show" onclick="show()" />
+			<p id="msg"></p> 
+		</center>
+	</form>
+</body>
+</html>

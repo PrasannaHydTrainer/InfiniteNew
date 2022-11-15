@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<title>Examination @ CGI</title>
+		<link type="text/css" rel="stylesheet" href = "css/AnswerSheet.css"/>
+		<script type="text/javascript" language="javascript" src="js/Exam1.js">
+		</script>
+	</head>
+	<body onload="load()">
+		<p class = "title">Online Exam @ GGK</p>
+		<div class = "MainForm" align = "Left" >		
+			<br/><br/>
+			<form name = "ExamForm" id = "inputForm1" action = "" method = "GET">
+					<p id = "Question">
+						This is the question
+					</p>
+				
+					<input type = "radio" name = "OptionR" id = "Opt1" onClick = "AnswerChoosed(1)"/>
+					<label id = "Option0" name = "Name1" >1st Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt2" onClick = "AnswerChoosed(2)"/> 
+					<label id = "Option1">2nd Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt3" onClick = "AnswerChoosed(3)"/> 
+					<label id = "Option2">3rd Option</label><br />
+					<input type = "radio" name = "OptionR" id = "Opt4" onClick = "AnswerChoosed(4)"/> 
+					<label id = "Option3">4th Option</label><br />
+					<br />
+					<br />
+					<input type = "button" value = "Next" onClick = "NextQuestion()">
+			</form>		
+		</div> 
+	</body>
+</html>

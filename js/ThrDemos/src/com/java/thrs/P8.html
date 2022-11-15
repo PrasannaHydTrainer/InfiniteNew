@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function sum() {
+		if (frmCalc.firstNo.value=="") {
+			document.getElementById("error1").innerHTML="Plesae Enter First No...";
+			return;
+		} else {
+			document.getElementById("error1").innerHTML="";
+			}
+		var firstNo, secondNo, result;
+		firstNo = parseInt(frmCalc.firstNo.value);
+		secondNo = parseInt(frmCalc.secondNo.value);
+		result = firstNo + secondNo;
+		frmCalc.result.value = result;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="get" name="frmCalc">
+		<table border="3" align="center">
+			<tr>
+				<th>First Number</th>
+				<td>
+					<input type="number" name="firstNo" /> 
+				<span id="error1" style="color: red;"></span>
+					
+				</td>
+			</tr>
+			<tr>
+				<th>Second Number</th>
+				<td>
+					<input type="number" name="secondNo" /> 
+			<span id="error2" style="color: red;"></span>
+
+				</td>
+			</tr>
+			<tr>
+				<th>Result</th>
+				<td>
+					<input type="number" name="result" /> 
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2">
+					<input type="button" value="Sum" onclick="sum()" /> 
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="button" value="Sub" />
+				</th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

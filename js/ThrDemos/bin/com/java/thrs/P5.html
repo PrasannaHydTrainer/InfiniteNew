@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show() {
+		var msg="";
+		if (frmAttendance.chkHarshit.checked==true) {
+		   msg+="Harshit is Present Today...<br/>";
+		} else {
+			msg+="Harshit is Absent Today...<br/>";
+		}
+		if (frmAttendance.chkGaurav.checked==true) {
+			   msg+="Gaurav is Present Today...<br/>";
+			} else {
+				msg+="Gaurav is Absent Today...<br/>";
+			}
+		document.getElementById("msg").innerHTML=msg;
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="get" name="frmAttendance">
+	<input type="checkbox" name="chkHarshit" onchange="show()">Harshit <br/>
+	<input type="checkbox" name="chkGaurav" onchange="show()">Gaurav <br/>
+	<input type="checkbox" name="chkSachin">Sachin <br/>
+	<p id="msg"></p>
+</form>
+</body>
+</html>

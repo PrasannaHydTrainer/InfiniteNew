@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	questionNo=0;
+	var questions = ["1. What is Java", "2. What is OOPS",
+			"3. What is Testing", "4. EJB stands for",
+			"5. JDBC Drivers List"
+		];
+
+	function nextQuestion() {
+		questionNo++;
+		document.getElementById("question").innerHTML=questions[questionNo];
+		}
+	function load() {
+		document.getElementById("question").innerHTML=questions[questionNo];
+	}
+	function previousQuestion() {
+		questionNo--;
+		document.getElementById("question").innerHTML=questions[questionNo];	
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body onload="load()">
+	<p id="question"></p> <br/><br/>
+	<input type="button" value="Next" onclick="nextQuestion()" /> &nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="button" value="Previous" onclick="previousQuestion()" /> 
+</body>
+</html>
