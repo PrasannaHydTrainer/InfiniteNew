@@ -1,0 +1,124 @@
+1) What is Object Oriented Programming
+
+2) What is Class
+
+3) OOPS Features
+
+	Encapsulation
+
+	Abstraction
+
+	Inheritance
+
+	Polymorphism
+
+4) Java Features
+
+5) Java Architecture
+
+6) Java DataTypes
+
+7) Stack and Heap
+
+8) What is array and jagged array
+
+9) Method Overloading (Compile time polymorphism)
+
+10) Constructors 
+
+11) static (vs) not-static
+
+12) Inheritance
+
+13) super keyword
+
+14) Abstract class
+
+15) interface
+
+16) diamond problem
+
+17) Exception Handling
+
+    try
+    catch
+    finally
+    throw
+    throws keyword
+
+    Custom Exceptions syntax
+
+18) Multi-threading
+
+    Thread life cycle
+    thread methods
+    syntax to create threads
+    synchronization
+ 
+19) Collections and Generics
+
+	List
+
+	Set
+
+	SortedSet
+
+	Map Interfaces
+
+	ArrayList
+	LinkedList	
+	TreeSet
+	HashSet
+	HashMap
+	HashTable
+
+20) JUnit
+
+	Annotations
+	Test Cases
+	@Before
+	@BeforeAll
+	@After
+	@AfterAll
+	Assert Methods
+
+22) Agile and Models
+
+21) Servlets Life Cycle
+
+	All classes and interfaces
+
+22) JSP
+	Syntaxes
+	Life Cycle
+	JSTL
+	Beans
+	TagLibs
+
+23) JSF
+
+	Annotations
+	Create RIA 
+	taglibs
+	
+24) Hibernate
+
+	Architecture
+	First Level Cache
+	Second Level Cache
+	SessionFactory
+	Session
+	Transaction
+	Criteria Language
+	NamedQueries
+
+	Mapping syntaxes of hbm and class files
+
+25) EJB
+
+	Session Beans
+	Server Components
+	Archicture
+	JNDI
+
+
