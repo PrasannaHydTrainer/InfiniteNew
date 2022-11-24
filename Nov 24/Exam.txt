@@ -1,0 +1,25 @@
+1) Explain about try...catch...finally blocks
+
+2) What is difference between throw and throws keyword
+
+3) How to create custom exceptions, specify with examples
+
+4) What are the top most collection interfaces we have
+
+5) What is the purpose of map interface.
+
+6) What is the difference between HashMap and HashTable
+
+7) Display HashTable records by using foreach loop
+
+8) What is thread, and explain thread life cycle
+
+9) What is the purpose of sleep(), run(), start(), join() methods
+
+10) Explain about 'synchronized' keyword in detail
+
+11) What is unit testing
+
+12) How to create a test case
+
+
