@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+	<h:body>
+  <f:facet name="last">
+	<h:outputStylesheet library="mytheme" name="css/style.css" />
+  </f:facet>
+
+  <h1>PrimeFaces email validator example</h1>
+
+  <div style="width: 500px">
+	<h:form>
+Enter Email Address : 
+	<p:inputText id="email" required="true" label="email" size="40"
+		requiredMessage="Please enter your email address."
+		validatorMessage="Invalid email format"
+		value="#{userBean.email}">
+
+	  <f:validateRegex
+		pattern="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+
+	</p:inputText>
+	<p:watermark for="email" value="Email Address *" />
+	<p:message for="email" />
+
+	<p:commandButton value="test" style="margin:20px"
+		action="#{userBean.register}" ajax="false" />
+
+   </h:form>
+  
+</div>
+</h:body>
+</html>

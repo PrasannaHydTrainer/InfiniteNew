@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+		   <h:body>
+      <h1>Create Employ</h1>
+    <h:form>
+    	Employ No : 
+        <h:inputText value="#{employ.empno}">
+        	<f:validator validatorId="com.infinite.jsf.EmpnoValidator" />
+        </h:inputText>        <br/><br/>
+        <h:messages/>
+        Employ Name : 
+        <h:inputText value="#{employ.name}" />        <br/><br/>
+        Department  : 
+		<h:inputText value="#{employ.dept}" />		<br/><br/>
+        Designation :  
+		<h:inputText value="#{employ.desig}" />		<br/><br/>
+        Basic :  
+		<h:inputText value="#{employ.basic}" />		<br/><br/>
+      <h:commandButton value="Save" action="#{eDao.addEmployDao(employ)}" />
+                        <h:link outcome="EmployShow" value="View Employ Records"  />
+      </h:form>
+	</h:body>
+</html>
