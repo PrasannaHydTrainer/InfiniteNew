@@ -7,7 +7,7 @@
 			<center>
                 <h2><h:outputText value="Employ Records"/></h2>
             </center>
-        <h:dataTable value="#{employDAO.showEmploy()}" var="e" border="3">
+        <h:dataTable value="#{eDao.showEmployDao()}" var="e" border="3">
         	    <h:column>
                     <f:facet name="header">Employ No</f:facet>
                     <h:outputText value="#{e.empno}"/>
@@ -30,13 +30,13 @@
                 </h:column>
                 <h:column> 
                     <f:facet name="header">Update</f:facet>
-                    <h:commandButton action="#{employDAO.searchEmploy(e.empno)}" 
+                    <h:commandButton action="#{eDao.searchEmployDao(e.empno)}" 
                     		value="Update"> 
                     </h:commandButton>
                 </h:column>
                 <h:column> 
                     <f:facet name="header">Delete</f:facet>
-                    <h:commandButton action = "#{employDAO.deleteEmploy(e.empno)}" 
+                    <h:commandButton action = "#{eDao.deleteEmployDao(e.empno)}" 
                     		value="Delete" > 
                     </h:commandButton>
                 </h:column>

@@ -27,6 +27,7 @@
 			<th>Edition</th>
 			<th>Department</th>
 			<th>Total Books</th>
+			<th>Select</th>
 		</tr>
 	<%
 		for(Books book : booksList) {

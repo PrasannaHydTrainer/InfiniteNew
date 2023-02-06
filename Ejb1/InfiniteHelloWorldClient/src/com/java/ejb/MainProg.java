@@ -12,6 +12,5 @@ public class MainProg {
 		    	new InitialContext().lookup("InfiniteHelloWorld/remote");
 
 		    System.out.println(service.sayHello());
-		    System.out.println(service.greeting("Prasanna"));
 	}
 }

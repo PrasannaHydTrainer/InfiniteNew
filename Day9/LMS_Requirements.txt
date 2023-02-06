@@ -1,3 +1,13 @@
+Implement Below Modules
+________________________
+
+1) Show Employ
+2) Search Employ
+3) Show Employ Leave History
+4) Show Employ Pending Leave History
+5) Apply Leave
+6) Approve/Deny
+
 ApplyLeave
 ____________
 
