@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<h:head></h:head>
+
+<h:body>
+    <h2>Primefaces DataTable with pagination</h2>
+    <h:form>
+        <p:dataTable var="employee" value="#{employeeBean.employeeList}"
+                     paginator="true" rows="10"
+                     paginatorTemplate="{CurrentPageReport} {FirstPageLink}
+                     {PreviousPageLink} {PageLinks} {NextPageLink}
+                     {LastPageLink} {RowsPerPageDropdown}"
+                     rowsPerPageTemplate="5,10,15">
+            <p:column headerText="Id">
+                <h:outputText value="#{employee.id}"/>
+            </p:column>
+
+            <p:column headerText="Name">
+                <h:outputText value="#{employee.name}"/>
+            </p:column>
+
+            <p:column headerText="Phone Number">
+                <h:outputText value="#{employee.phoneNumber}"/>
+            </p:column>
+
+            <p:column headerText="Address">
+                <h:outputText value="#{employee.address}"/>
+            </p:column>
+        </p:dataTable>
+    </h:form>
+</h:body>
+</html>
