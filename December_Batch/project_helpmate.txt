@@ -1,0 +1,24 @@
+Parent
+_______
+
+GstID	 LisID	User
+GST100   LSC100  akram
+GST101   LSC101  Chetan
+GST102   LSC102	  Priya
+
+ApplicationForm
+________________
+
+AppID  GST100  LSC101  Akram
+
+searchByUser(Akram) AppForm
+
+searchByUser(Akram) Parent
+
+if (objAkram.GSTID.equals(objParent.GSTID) && objAkram.LisID.equals(objParent.GSTID)) {
+return true;
+}
+return false;
+
+
+
