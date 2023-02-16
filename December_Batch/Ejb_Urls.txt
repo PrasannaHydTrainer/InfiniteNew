@@ -1,0 +1,8 @@
+https://ibytecode.com/blog/how-to-create-ejb3-jpa-project-in-eclipse-jboss-as-6-1/
+
+https://www.javawebtutor.com/articles/ejb/ejb3_and_jpa_example_in_eclipse.php
+
+Query query = entityManager.createQuery("SELECT e FROM Employee e");
+		    return (List<Employee>) query.getResultList();
+
+EmployeeBean/remote
