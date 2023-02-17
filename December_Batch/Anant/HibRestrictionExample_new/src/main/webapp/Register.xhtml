@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+</h:head>
+<h:body>
+	<f:facet name="last">
+	  <h:outputStylesheet library="default" name="css/style.css" />
+	</f:facet>
+
+	<h1>PrimeFaces focus example</h1>
+
+	<div style="width: 500px">
+	<h:form>
+	  <p:panel id="panel-signup">
+
+          <!-- enable focus component -->
+	  <p:focus context="panel-signup" />
+
+	  <p:inputText id="username" required="true" label="username"
+		size="40" requiredMessage="Please enter your username."
+		value="#{userAction.username}">
+	  </p:inputText>
+	  <p:watermark for="username" value="Username *" />
+	  <p:message for="username" />
+
+	  <p:password id="password" required="true" label="password" size="40"
+		requiredMessage="Please enter your password."
+		match="confirmPassword" value="#{userAction.password}"
+		maxlength="20">
+	  </p:password>
+		<p:watermark for="password" value="Password *" />
+		<p:message for="password" />
+
+	  <p:password id="confirmPassword" required="true" size="40"
+		requiredMessage="Please confirm your password."
+		label="confirmPassword" value="#{userAction.password}"
+		maxlength="20">
+	  </p:password>
+	  <p:watermark for="confirmPassword" value="Type Password Again *" />
+	  <p:message for="confirmPassword" />
+
+	  <p:commandButton value="Register" style="margin:20px"
+		action="#{userAction.register}" ajax="false" />
+
+	  </p:panel>
+
+	</h:form>
+	</div>
+
+</h:body>
+</html>

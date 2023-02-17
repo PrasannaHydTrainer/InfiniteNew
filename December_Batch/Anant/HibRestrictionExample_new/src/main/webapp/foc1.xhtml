@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:form id="mainForm">
+  <p:focus for="Age" />
+  <p:inputText id="name" />
+  <p:inputText id="Age" />
+  <p:selectOneRadio id="Gender" value="#{employee.gender}" layout="custom">
+    <f:selectItem itemLabel="Male" itemValue="Male" />
+    <f:selectItem itemLabel="Female" itemValue="Female" />
+  </p:selectOneRadio>
+  <p:commandButton id="clear" value="Press" action="{employee.saveAction}" />
+  <p:commandButton id="clear1" value="clear" />
+</h:form>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
+      <div class="card">
+     <h:form>
+
+        <p:messages/>
+
+        <h:panelGrid id="panel" columns="3" cellpadding="7">
+ 
+            <p:outputLabel for="username" value="Username"/>
+            <p:inputText id="username" value="#{focusView.username}" required="true" label="Firstname">
+                <f:validateLength minimum="2"/>
+            </p:inputText>
+            <p:message for="username"/>
+
+            <p:outputLabel for="email" value="Email"/>
+            <p:inputText id="email" value="#{focusView.email}" required="true" label="Surname"/>
+            <p:message for="email"/>
+        </h:panelGrid>
+  <p:focus context="panel"/>
+        <p:commandButton id="submitButton" value="Save" update="@parent" action="#{focusView.save}" styleClass="mt-3" />
+    </h:form>
+</div>
+</html>

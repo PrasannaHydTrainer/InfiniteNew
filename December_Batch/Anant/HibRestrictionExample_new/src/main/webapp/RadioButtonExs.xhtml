@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+		<h:form>
+	        1. Hard-coded with "f:selectItem" : 
+   		<h:selectOneRadio value="#{radioBean.radioValue}">
+   			<f:selectItem itemValue="Red" itemLabel="Color1 - Red" />
+   			<f:selectItem itemValue="Green" itemLabel="Color1 - Green" />
+   			<f:selectItem itemValue="Blue" itemLabel="Color1 - Blue" />
+   		</h:selectOneRadio> <br/><br/>
+   			Radio Value : 
+	<h:inputText value="#{radioBean.radioText}"/> <br/><br/> 
+   		 <h:commandButton value="Submit" action="radioresult" />
+	</h:form>
+</html>
