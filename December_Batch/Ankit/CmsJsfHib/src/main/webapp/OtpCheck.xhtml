@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+
+	<h:body>
+	<f:facet name="last">
+	  <h:outputStylesheet library="default" name="css/style.css" />
+	</f:facet>
+
+	<h1>Otp Authentication</h1>
+	<div style="width: 500px">
+	<h:form>
+	  <p:panel id="panel-signup">
+          <!-- enable focus component -->
+	  <p:focus context="panel-signup" />
+
+	  <p:inputText id="userName" required="true" 
+	  	label="Please Enter User Name"
+		size="40" requiredMessage="Please enter User name."
+		value="#{otp.userName}">
+	  </p:inputText>
+	  <p:watermark for="userName" value="customerName *" />
+	  <p:message for="userName" />
+
+	  <p:inputText id="otpNo" required="true" 
+	  	label="Please Enter otpNo No"
+		size="40" requiredMessage="Please enter otpNo."
+		value="#{otp.otpNo}">
+	  </p:inputText>
+	  <p:watermark for="otpNo" value="otpNo *" />
+	  <p:message for="otpNo" />
+
+
+	  <p:commandButton value="Validate Otp" style="margin:20px"
+		action="#{cDao.addCustomerDao(customer)}" ajax="false" />
+	  </p:panel>
+	</h:form>
+	</div>
+</h:body>
+</html>

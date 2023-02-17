@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<h:form>
+<h:commandButton name="Show" value="Show" action="#{cDao.showHistory()}"/>
+	<table border="3">
+		<tr>
+			<th>health id</th>
+			<th>Insurance</th>
+			<th>Issues</th>
+		</tr>
+		<tr>
+			<th>
+				1
+			</th>
+			<th>
+				ABC
+			</th>
+		<th>
+			<h:dataTable var="s" value="#{cDao.issues}">
+       	    <h:column>
+                    <h:outputText value="#{s}"/>
+                </h:column>
+
+			</h:dataTable>
+		</th>
+		</tr>
+	</table>
+</h:form>
+</html>
