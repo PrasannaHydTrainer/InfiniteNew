@@ -12,5 +12,6 @@
     	<mapping class="com.infinite.cms.Customer"/>
     	<mapping class="com.infinite.cms.Otp"/>
     	<mapping class="com.infinite.cms.Health" />
+    	<mapping class="com.infinite.cms.UserTest" />
     </session-factory>
 </hibernate-configuration>
