@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\Quiz3\Quiz3\bin\Debug\Quiz3.exe.config
+D:\Dotnet_new\Day1\Quiz3\Quiz3\bin\Debug\Quiz3.exe
+D:\Dotnet_new\Day1\Quiz3\Quiz3\bin\Debug\Quiz3.pdb
+D:\Dotnet_new\Day1\Quiz3\Quiz3\obj\Debug\Quiz3.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\Quiz3\Quiz3\obj\Debug\Quiz3.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\Quiz3\Quiz3\obj\Debug\Quiz3.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\Quiz3\Quiz3\obj\Debug\Quiz3.exe
+D:\Dotnet_new\Day1\Quiz3\Quiz3\obj\Debug\Quiz3.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\bin\Debug\ShadowExample.exe.config
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\bin\Debug\ShadowExample.exe
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\bin\Debug\ShadowExample.pdb
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\obj\Debug\ShadowExample.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\obj\Debug\ShadowExample.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\obj\Debug\ShadowExample.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\obj\Debug\ShadowExample.exe
+D:\Dotnet_new\Day1\ShadowExample\ShadowExample\obj\Debug\ShadowExample.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\NamedParams\NamedParams\bin\Debug\NamedParams.exe.config
+D:\Dotnet_new\Day1\NamedParams\NamedParams\bin\Debug\NamedParams.exe
+D:\Dotnet_new\Day1\NamedParams\NamedParams\bin\Debug\NamedParams.pdb
+D:\Dotnet_new\Day1\NamedParams\NamedParams\obj\Debug\NamedParams.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\NamedParams\NamedParams\obj\Debug\NamedParams.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\NamedParams\NamedParams\obj\Debug\NamedParams.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\NamedParams\NamedParams\obj\Debug\NamedParams.exe
+D:\Dotnet_new\Day1\NamedParams\NamedParams\obj\Debug\NamedParams.pdb

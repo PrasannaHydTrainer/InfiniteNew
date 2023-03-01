@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\Inhc\Inhc\bin\Debug\Inhc.exe.config
+D:\Dotnet_new\Day1\Inhc\Inhc\bin\Debug\Inhc.exe
+D:\Dotnet_new\Day1\Inhc\Inhc\bin\Debug\Inhc.pdb
+D:\Dotnet_new\Day1\Inhc\Inhc\obj\Debug\Inhc.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\Inhc\Inhc\obj\Debug\Inhc.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\Inhc\Inhc\obj\Debug\Inhc.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\Inhc\Inhc\obj\Debug\Inhc.exe
+D:\Dotnet_new\Day1\Inhc\Inhc\obj\Debug\Inhc.pdb

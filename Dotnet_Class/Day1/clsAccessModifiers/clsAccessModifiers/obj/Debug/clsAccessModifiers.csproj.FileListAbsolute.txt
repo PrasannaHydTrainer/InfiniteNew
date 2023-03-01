@@ -1,0 +1,6 @@
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\bin\Debug\clsAccessModifiers.dll
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\bin\Debug\clsAccessModifiers.pdb
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\obj\Debug\clsAccessModifiers.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\obj\Debug\clsAccessModifiers.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\obj\Debug\clsAccessModifiers.dll
+D:\Dotnet_new\Day1\clsAccessModifiers\clsAccessModifiers\obj\Debug\clsAccessModifiers.pdb

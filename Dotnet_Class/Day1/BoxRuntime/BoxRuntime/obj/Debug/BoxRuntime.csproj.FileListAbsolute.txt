@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\bin\Debug\BoxRuntime.exe.config
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\bin\Debug\BoxRuntime.exe
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\bin\Debug\BoxRuntime.pdb
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\obj\Debug\BoxRuntime.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\obj\Debug\BoxRuntime.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\obj\Debug\BoxRuntime.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\obj\Debug\BoxRuntime.exe
+D:\Dotnet_new\Day1\BoxRuntime\BoxRuntime\obj\Debug\BoxRuntime.pdb

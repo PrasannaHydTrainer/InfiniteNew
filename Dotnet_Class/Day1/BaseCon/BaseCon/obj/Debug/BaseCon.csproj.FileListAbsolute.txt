@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\BaseCon\BaseCon\bin\Debug\BaseCon.exe.config
+D:\Dotnet_new\Day1\BaseCon\BaseCon\bin\Debug\BaseCon.exe
+D:\Dotnet_new\Day1\BaseCon\BaseCon\bin\Debug\BaseCon.pdb
+D:\Dotnet_new\Day1\BaseCon\BaseCon\obj\Debug\BaseCon.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\BaseCon\BaseCon\obj\Debug\BaseCon.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\BaseCon\BaseCon\obj\Debug\BaseCon.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\BaseCon\BaseCon\obj\Debug\BaseCon.exe
+D:\Dotnet_new\Day1\BaseCon\BaseCon\obj\Debug\BaseCon.pdb

@@ -1,0 +1,248 @@
+1) What is Object Oriented Programming 
+
+It is an approach that provides a way of modularizing programming, that which can be used to create small partition memory area for both data and objects, which are to be used as templates for creating copies of such modules on demand. 
+
+Object : An object is a real world entity, that which possess 3 characterstics known as 
+
+	  (i) State
+
+	 (ii) Behaviour
+
+	(iii) Identity
+
+OOPS features : 
+________________
+
+(i) Encapsulation : Wrapping up of data and functions into a single unit known as Encapsulation. 
+
+(ii) Abstraction : Hiding the irrelevant details of an object, that do not contribute to its essential characterstics known as Abstraction. 
+
+*** Encapsulation focuses on showing the relevant details, where abstraction focuses on hiding the irrelevant details ***
+
+(iii) Inheritance : Deriving a new entity from already existing entity known as inheritane, through inheritance we can reduce the size of the program. 
+
+(iv) Polymorphism : The ability to take more than one form known as polymorphism. 
+
+class : A class is a template or blueprint, that which contains combination of data members and member functions.  Members of the class can be accessable by using the instance of the class. 
+
+class class_name
+{
+    data members;
+    member functions;
+}
+
+What is Namespace : Contains group of related classes and interfaces that which belongs to one common group. If you want to overcome the naming conflicts between classes, then we need the help of namespaces. 
+
+
+Access modifiers : 
+___________________
+
+(i) private : Allows you to access members within current class. 
+
+(ii) public : Allows you to access members in entire application. 
+
+(iii) protected : Allows you to access members within current/derived classes. 
+
+(iv) internal : Allows you to access members within all classes of current namespace.
+
+(v) protected internal : Allows you to access members within all classes of current namespace and other namespace derived classes. 
+
+protected internal int x=12;
+Namespace1
+
+class First {
+
+protected internal int x=12;
+}
+
+Namespace2 
+
+   class Test : Namespace1.First {
+   }
+
+Now x can be accessable in all classes of Namespace1 and Test class of Namespace2 as Test inherited from Namespace1 First class. 
+ 
+Data Types : 
+_____________
+
+There are 2 types of data types as
+
+	(i) value types :
+
+		int, float, double, char, boolean 
+
+	(ii) reference types 
+		String, Object and Custom class object. 
+
+What is the output statement in C#.NET 
+
+Console.WriteLine() : used to display any value or message. 
+
+Console.WriteLine("Welcome to C# Programming...");
+
+You can create an object to the class, as
+
+class_name obj = new class_name();
+
+There are 2 types of memories known as
+
+(i) STACK
+
+(ii) HEAP 
+
+*** Value types will be stored in Stack Memory, and reference types will be stored in HEAP memory ***
+
+There are various types of parameters in C# as
+
+1) in : Used for input purpose.
+
+2) ref : Used for both input and output (call by reference) 
+
+3) out : If you want to return more than one value, then we need the help of out keyword.
+
+void show(String name) {
+...
+...
+...
+}
+
+show();
+show("Harsh");
+show("Arun","Harsh","Ayush");
+
+
+int x;
+
+x="Hello";
+x=12;
+x=12.5;
+
+object x;
+
+x="Hello";
+x=12;
+x=12.5;
+
+Boxing and Unboxing :
+______________________
+
+The concept of converting value types to reference types known as boxing, and reference types to value types known as unboxing. 
+
+object is type that which can be used for boxing and unboxing (this also known as casting) 
+
+The top level class in .NET is Object 
+
+	ToString() : Contains the string representation, used to display the member variables of the class. This method will be called automatically once you print the object. 
+
+Overloading : 
+
+The concept of using the same method name w.r.t. different data types or different parameters known as method overloading.  Here, the method name must be same, but no.of parameters or type of parameters we are passing here are different. 
+
+It is an example of compile time polymorphism. 
+
+class Test {
+   int a, b;
+   a = 5;
+   b = 7;
+}
+
+What is Constructor : 
+_____________________
+
+A consttructor is a special member, which used to initilize the member variables of the class, it is special because it has the same name as that of method name. 
+
+Rules : 
+_______
+
+	-> It will not contains any return type
+
+	-> It will not return any value
+
+	-> It will be invoked automatically once the instance of the class created.
+
+	-> A constructor can be overloaded. 
+
+Types of Constructors : 
+_______________________
+
+There are 2 types of constructors known as 
+
+(i) static constructors : These are called class constructors, which are used to initialize the static variables of the class, these constructors are invoked automatically before control reaches the entry point. These constructors cannot be overloaded. 
+
+(ii) instance constructors : These are the constructors, that which are invoked automatically once the instance of the class created. These constructors can be overloaded. 
+
+what is the purpose of this keyword. 
+
+
+Used to identify the member variables of the class. 
+
+extension methods : 
+_____________________
+
+
+These are the methods, that which can be added to the existing class from outside the class. If you want to improve the productivity of existing class without disturbing its structure, then we need the help of extension methods. 
+
+For this strictly we need to use static classes and static methods 
+
+optional parameters : If you want to give default values to the parameters, that can be achieved by using optional parameters. 
+
+
+
+static classes contains only static methods, as you cannot create an object to static class, as these methods will be called by using class name. 
+
+Inheritance : The concept of deriving a new class from already existing class known as inheritance. The class which is derived known as derived class, the class from which its derived known as base class.  
+
+Through inheritance we can reduce the size of the program. 
+
+class First {
+...
+...
+...
+}
+
+class Second extends First {
+...
+...
+...
+}
+
+Once you create an object to Second class, then you can access all public/protected and internal members of the base class. 
+
+dll (Dynamic Link Library) 
+
+	A dll is an entity, that which can be used for the purpose of write once and call from many projects. 
+
+base keyword : If you want to pass values from derived class to base class, then we need the help of base keyword. It has 2 forms as
+
+	(i) base as a keyword
+
+       (ii) base as a constructor 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

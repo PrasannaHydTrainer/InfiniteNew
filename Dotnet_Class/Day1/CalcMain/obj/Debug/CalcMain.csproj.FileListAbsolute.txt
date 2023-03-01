@@ -1,0 +1,11 @@
+D:\Dotnet_new\Day1\CalcMain\bin\Debug\CalcMain.exe.config
+D:\Dotnet_new\Day1\CalcMain\bin\Debug\CalcMain.exe
+D:\Dotnet_new\Day1\CalcMain\bin\Debug\CalcMain.pdb
+D:\Dotnet_new\Day1\CalcMain\bin\Debug\clsCalculation.dll
+D:\Dotnet_new\Day1\CalcMain\bin\Debug\clsCalculation.pdb
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.csproj.CopyComplete
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.exe
+D:\Dotnet_new\Day1\CalcMain\obj\Debug\CalcMain.pdb

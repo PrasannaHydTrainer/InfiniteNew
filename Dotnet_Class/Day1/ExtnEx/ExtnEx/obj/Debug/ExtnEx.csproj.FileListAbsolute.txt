@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\bin\Debug\ExtnEx.exe.config
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\bin\Debug\ExtnEx.exe
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\bin\Debug\ExtnEx.pdb
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\obj\Debug\ExtnEx.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\obj\Debug\ExtnEx.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\obj\Debug\ExtnEx.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\obj\Debug\ExtnEx.exe
+D:\Dotnet_new\Day1\ExtnEx\ExtnEx\obj\Debug\ExtnEx.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\OutExample1\OutExample1\bin\Debug\OutExample1.exe.config
+D:\Dotnet_new\Day1\OutExample1\OutExample1\bin\Debug\OutExample1.exe
+D:\Dotnet_new\Day1\OutExample1\OutExample1\bin\Debug\OutExample1.pdb
+D:\Dotnet_new\Day1\OutExample1\OutExample1\obj\Debug\OutExample1.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\OutExample1\OutExample1\obj\Debug\OutExample1.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\OutExample1\OutExample1\obj\Debug\OutExample1.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\OutExample1\OutExample1\obj\Debug\OutExample1.exe
+D:\Dotnet_new\Day1\OutExample1\OutExample1\obj\Debug\OutExample1.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day1\StcEx\StcEx\bin\Debug\StcEx.exe.config
+D:\Dotnet_new\Day1\StcEx\StcEx\bin\Debug\StcEx.exe
+D:\Dotnet_new\Day1\StcEx\StcEx\bin\Debug\StcEx.pdb
+D:\Dotnet_new\Day1\StcEx\StcEx\obj\Debug\StcEx.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day1\StcEx\StcEx\obj\Debug\StcEx.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day1\StcEx\StcEx\obj\Debug\StcEx.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day1\StcEx\StcEx\obj\Debug\StcEx.exe
+D:\Dotnet_new\Day1\StcEx\StcEx\obj\Debug\StcEx.pdb
