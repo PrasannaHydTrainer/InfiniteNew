@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\obj\Debug\MultiCastDemo.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\obj\Debug\MultiCastDemo.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\obj\Debug\MultiCastDemo.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\bin\Debug\MultiCastDemo.exe.config
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\bin\Debug\MultiCastDemo.exe
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\bin\Debug\MultiCastDemo.pdb
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\obj\Debug\MultiCastDemo.exe
+D:\Dotnet_new\Day2\MultiCastDemo\MultiCastDemo\obj\Debug\MultiCastDemo.pdb

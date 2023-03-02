@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\MultiInh\MultiInh\bin\Debug\MultiInh.exe.config
+D:\Dotnet_new\Day2\MultiInh\MultiInh\bin\Debug\MultiInh.exe
+D:\Dotnet_new\Day2\MultiInh\MultiInh\bin\Debug\MultiInh.pdb
+D:\Dotnet_new\Day2\MultiInh\MultiInh\obj\Debug\MultiInh.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\MultiInh\MultiInh\obj\Debug\MultiInh.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\MultiInh\MultiInh\obj\Debug\MultiInh.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\MultiInh\MultiInh\obj\Debug\MultiInh.exe
+D:\Dotnet_new\Day2\MultiInh\MultiInh\obj\Debug\MultiInh.pdb

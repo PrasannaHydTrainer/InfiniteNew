@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\bin\Debug\ExDemo1.exe.config
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\bin\Debug\ExDemo1.exe
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\bin\Debug\ExDemo1.pdb
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\obj\Debug\ExDemo1.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\obj\Debug\ExDemo1.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\obj\Debug\ExDemo1.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\obj\Debug\ExDemo1.exe
+D:\Dotnet_new\Day2\ExDemo1\ExDemo1\obj\Debug\ExDemo1.pdb

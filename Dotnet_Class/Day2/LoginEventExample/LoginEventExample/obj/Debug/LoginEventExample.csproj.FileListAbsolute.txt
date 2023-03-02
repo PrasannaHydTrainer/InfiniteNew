@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\bin\Debug\LoginEventExample.exe.config
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\bin\Debug\LoginEventExample.exe
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\bin\Debug\LoginEventExample.pdb
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\obj\Debug\LoginEventExample.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\obj\Debug\LoginEventExample.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\obj\Debug\LoginEventExample.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\obj\Debug\LoginEventExample.exe
+D:\Dotnet_new\Day2\LoginEventExample\LoginEventExample\obj\Debug\LoginEventExample.pdb

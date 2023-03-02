@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\bin\Debug\UncheckedEx.exe.config
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\bin\Debug\UncheckedEx.exe
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\bin\Debug\UncheckedEx.pdb
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\obj\Debug\UncheckedEx.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\obj\Debug\UncheckedEx.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\obj\Debug\UncheckedEx.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\obj\Debug\UncheckedEx.exe
+D:\Dotnet_new\Day2\UncheckedEx\UncheckedEx\obj\Debug\UncheckedEx.pdb

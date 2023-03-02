@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\ChkTest\ChkTest\bin\Debug\ChkTest.exe.config
+D:\Dotnet_new\Day2\ChkTest\ChkTest\bin\Debug\ChkTest.exe
+D:\Dotnet_new\Day2\ChkTest\ChkTest\bin\Debug\ChkTest.pdb
+D:\Dotnet_new\Day2\ChkTest\ChkTest\obj\Debug\ChkTest.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\ChkTest\ChkTest\obj\Debug\ChkTest.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\ChkTest\ChkTest\obj\Debug\ChkTest.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\ChkTest\ChkTest\obj\Debug\ChkTest.exe
+D:\Dotnet_new\Day2\ChkTest\ChkTest\obj\Debug\ChkTest.pdb

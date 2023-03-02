@@ -218,6 +218,89 @@ base keyword : If you want to pass values from derived class to base class, then
 
        (ii) base as a constructor 
 
+class A {
+...
+...
+...
+}
+
+class B : A {
+...
+...
+...
+}
+
+class C : B {
+...
+...
+...
+}
+
+
+____________________________________________________________
+
+class Test {
+   public static void Main() {
+	Console.WriteLine("5" + 3 + 8); // 538
+	Console.WriteLine("5" + (3+8)); // 511
+	Console.WriteLine("5+3" + 8); // 5+38
+  }
+}
+
+___________________________________________________________________
+
+
+class Demo {
+    public static void Main() {
+	int x=1;
+	switch(x) {
+	   case 1 : 
+	     Console.WriteLine("Hi");
+	   case 2 : 
+	     Console.WriteLine("Hello");
+	   case 3 : 
+	     Console.WriteLine("Test");
+	   case 4 : 
+	     Console.WriteLine("New");
+	   case 5 : 
+	     Console.WriteLine("Bye");
+	   case 6 : 
+	     Console.WriteLine("Default");
+	}
+}
+
+_____________________________________________________________
+
+class Test : String {
+    public static void Main() {
+	Console.WriteLine("Strings are immutable...");
+   }
+}
+
+_______________________________________________________________
+
+class Test
+{
+    public static void check(object ob)
+    {
+	if (ob=="ABC") {
+	  Console.WriteLine("Correct");
+	} else {
+	  Console.WriteLine("Bye");
+	}
+    }
+    public static void Main() {
+	check("ABC");
+    }
+}
+
+_____________________________________________________________________
+
+
+
+
+		
+
 
 
 

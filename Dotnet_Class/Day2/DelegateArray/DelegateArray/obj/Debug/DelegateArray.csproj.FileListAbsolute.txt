@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\bin\Debug\DelegateArray.exe.config
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\bin\Debug\DelegateArray.exe
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\bin\Debug\DelegateArray.pdb
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\obj\Debug\DelegateArray.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\obj\Debug\DelegateArray.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\obj\Debug\DelegateArray.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\obj\Debug\DelegateArray.exe
+D:\Dotnet_new\Day2\DelegateArray\DelegateArray\obj\Debug\DelegateArray.pdb

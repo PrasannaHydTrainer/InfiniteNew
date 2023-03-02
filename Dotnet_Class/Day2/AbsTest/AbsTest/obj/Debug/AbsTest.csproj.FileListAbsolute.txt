@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\AbsTest\AbsTest\bin\Debug\AbsTest.exe.config
+D:\Dotnet_new\Day2\AbsTest\AbsTest\bin\Debug\AbsTest.exe
+D:\Dotnet_new\Day2\AbsTest\AbsTest\bin\Debug\AbsTest.pdb
+D:\Dotnet_new\Day2\AbsTest\AbsTest\obj\Debug\AbsTest.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\AbsTest\AbsTest\obj\Debug\AbsTest.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\AbsTest\AbsTest\obj\Debug\AbsTest.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\AbsTest\AbsTest\obj\Debug\AbsTest.exe
+D:\Dotnet_new\Day2\AbsTest\AbsTest\obj\Debug\AbsTest.pdb

@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\bin\Debug\ChkFinal.exe.config
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\bin\Debug\ChkFinal.exe
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\bin\Debug\ChkFinal.pdb
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\obj\Debug\ChkFinal.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\obj\Debug\ChkFinal.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\obj\Debug\ChkFinal.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\obj\Debug\ChkFinal.exe
+D:\Dotnet_new\Day2\ChkFinal\ChkFinal\obj\Debug\ChkFinal.pdb

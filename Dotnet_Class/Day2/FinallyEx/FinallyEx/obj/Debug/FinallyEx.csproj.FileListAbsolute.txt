@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\bin\Debug\FinallyEx.exe.config
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\bin\Debug\FinallyEx.exe
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\bin\Debug\FinallyEx.pdb
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\obj\Debug\FinallyEx.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\obj\Debug\FinallyEx.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\obj\Debug\FinallyEx.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\obj\Debug\FinallyEx.exe
+D:\Dotnet_new\Day2\FinallyEx\FinallyEx\obj\Debug\FinallyEx.pdb

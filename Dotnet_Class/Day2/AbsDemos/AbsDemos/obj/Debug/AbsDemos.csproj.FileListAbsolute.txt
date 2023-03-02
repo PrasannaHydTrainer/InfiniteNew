@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\bin\Debug\AbsDemos.exe.config
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\bin\Debug\AbsDemos.exe
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\bin\Debug\AbsDemos.pdb
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\obj\Debug\AbsDemos.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\obj\Debug\AbsDemos.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\obj\Debug\AbsDemos.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\obj\Debug\AbsDemos.exe
+D:\Dotnet_new\Day2\AbsDemos\AbsDemos\obj\Debug\AbsDemos.pdb

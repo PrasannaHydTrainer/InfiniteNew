@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\bin\Debug\AbsConEx.exe.config
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\bin\Debug\AbsConEx.exe
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\bin\Debug\AbsConEx.pdb
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\obj\Debug\AbsConEx.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\obj\Debug\AbsConEx.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\obj\Debug\AbsConEx.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\obj\Debug\AbsConEx.exe
+D:\Dotnet_new\Day2\AbsConEx\AbsConEx\obj\Debug\AbsConEx.pdb

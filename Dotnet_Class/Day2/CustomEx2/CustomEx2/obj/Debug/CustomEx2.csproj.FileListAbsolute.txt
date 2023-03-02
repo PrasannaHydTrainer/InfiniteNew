@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\bin\Debug\CustomEx2.exe.config
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\bin\Debug\CustomEx2.exe
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\bin\Debug\CustomEx2.pdb
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\obj\Debug\CustomEx2.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\obj\Debug\CustomEx2.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\obj\Debug\CustomEx2.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\obj\Debug\CustomEx2.exe
+D:\Dotnet_new\Day2\CustomEx2\CustomEx2\obj\Debug\CustomEx2.pdb

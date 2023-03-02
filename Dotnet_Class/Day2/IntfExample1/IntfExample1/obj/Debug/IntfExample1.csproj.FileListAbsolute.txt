@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\bin\Debug\IntfExample1.exe.config
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\bin\Debug\IntfExample1.exe
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\bin\Debug\IntfExample1.pdb
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\obj\Debug\IntfExample1.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\obj\Debug\IntfExample1.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\obj\Debug\IntfExample1.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\obj\Debug\IntfExample1.exe
+D:\Dotnet_new\Day2\IntfExample1\IntfExample1\obj\Debug\IntfExample1.pdb

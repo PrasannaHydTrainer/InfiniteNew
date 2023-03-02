@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\EnumExs\EnumExs\bin\Debug\EnumExs.exe.config
+D:\Dotnet_new\Day2\EnumExs\EnumExs\bin\Debug\EnumExs.exe
+D:\Dotnet_new\Day2\EnumExs\EnumExs\bin\Debug\EnumExs.pdb
+D:\Dotnet_new\Day2\EnumExs\EnumExs\obj\Debug\EnumExs.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\EnumExs\EnumExs\obj\Debug\EnumExs.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\EnumExs\EnumExs\obj\Debug\EnumExs.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\EnumExs\EnumExs\obj\Debug\EnumExs.exe
+D:\Dotnet_new\Day2\EnumExs\EnumExs\obj\Debug\EnumExs.pdb

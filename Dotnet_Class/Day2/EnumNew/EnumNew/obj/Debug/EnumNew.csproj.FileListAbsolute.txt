@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\EnumNew\EnumNew\bin\Debug\EnumNew.exe.config
+D:\Dotnet_new\Day2\EnumNew\EnumNew\bin\Debug\EnumNew.exe
+D:\Dotnet_new\Day2\EnumNew\EnumNew\bin\Debug\EnumNew.pdb
+D:\Dotnet_new\Day2\EnumNew\EnumNew\obj\Debug\EnumNew.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\EnumNew\EnumNew\obj\Debug\EnumNew.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\EnumNew\EnumNew\obj\Debug\EnumNew.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\EnumNew\EnumNew\obj\Debug\EnumNew.exe
+D:\Dotnet_new\Day2\EnumNew\EnumNew\obj\Debug\EnumNew.pdb
