@@ -1,0 +1,8 @@
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\bin\Debug\InnerMethods.exe.config
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\bin\Debug\InnerMethods.exe
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\bin\Debug\InnerMethods.pdb
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\obj\Debug\InnerMethods.csproj.AssemblyReference.cache
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\obj\Debug\InnerMethods.csproj.SuggestedBindingRedirects.cache
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\obj\Debug\InnerMethods.csproj.CoreCompileInputs.cache
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\obj\Debug\InnerMethods.exe
+D:\Dotnet_new\Day2\InnerMethods\InnerMethods\obj\Debug\InnerMethods.pdb

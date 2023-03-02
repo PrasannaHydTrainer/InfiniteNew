@@ -1,0 +1,152 @@
+Abstract Class : 
+_________________
+
+A class that which can be created, but not implemented and instantiated known as Abstract class. Abstract class contains both abstract and non-abstract methods, abstract method(s) needs to be overrided mandetorily by the derived class. 
+
+Abstract class you cannot create a direct object. (Abstract class contains indirect objects) 
+
+An interface contains method declaration, and the implementation can be done in the corresponding class, you can add more than one interface to the particular class. 
+
+Difference between interface and abstract class : 
+_________________________________________________
+
+	-> An abstract class contains both abstract and non-abstract method(s) where interface contains only abstract methods. 
+
+	-> interface methods are public and abstract by default. 
+
+	-> Multiple Inheritance can be achieved by using interfaces
+
+	-> An interface can be called from anywhere to anywhere. 
+
+
+Abstract class used to represent hierarchy of data, where interface can be used for specialization. 
+
+sealed class : If you want to make any class to stop inheriting further, then we need the help of sealed class. 
+
+sealed method : If you want to ensure any method of parent class not to be redefined further in derived class, then we need the help of sealed method. 
+
+Enums allows you to represent group of constant values. 
+
+If you want to ensure a field needs to enter only the specific values, then we need the help of enums. 
+
+Exception Handling : 
+
+try
+catch 
+finally
+custom exceptions 
+
+Properties : 
+
+Exception Handling : 
+
+It is a mechanism of handling runtime errors during execution of the program. 
+
+There are 2 types of errors as 
+
+(i) Compile Time
+
+(ii) Runtime 
+
+By using Exception Handling, we can overcome runtime errors. 
+
+To handle exceptions, we have 3 blocks as 
+
+1) try block : This block contains statements in which there is possibility of getting runtime errors, as the statement(s) which are placed in this block are treated as heavy weighted statement(s) as CLR allocates excess memory to them. 
+
+2) catch block : Once exception raised in try block, then the control will be forwarded to catch block, this block contains alternate statement(s) for exceptions raised in try block.  One try block can contains multiple catch blocks. 
+
+3) finally block : This block contains statement(s) that needs to be executed mandetorily irrespective of try and catch blocks. This block is not mandetory but all the statement(s) which are placed in this block are executed as mandetory statements. 
+
+
+Exception is the top most class, from which all kinds of exceptions are derived. 
+
+Why to Make custom Exception : 
+
+System exceptions are inadequate to handle in all situations, to overcome this we need the help of custom exceptions. Any class that which derived from ApplicationException can be treated as Custom Exception. 
+
+Write a Program as 
+
+Accept 2 numbers and perform sum, 
+
+if any number < 0 then throw NegativeException
+if any number = 0 then throw NumberZeroException
+
+else print the sum. 
+
+Checked and Unchecked Exceptions in Csharp
+
+Checked Exceptions is block that which we need to include, if any of code is throwing wrong results w.r.t. some calculation. So, here we need to ask CLR (compiler) to check the code properly and throw relevant exception without ignoring and producing wrong results, then we need the help of checked block or method. 
+
+Checked Keyword can be used to control the overflow checking of operations and value conversions from one data type to another data type. 
+
+Unchecked keyword force the compiler to ignore the unexpected results or data type conversions from time being. 
+
+int x=12;
+
+void show() {
+..
+..
+}
+
+x=show;
+
+Deletegates are refernce type variables, that which allows you to store the refernce of one or more methods. these are similar to function pointers concept in 
+c/c++.
+
+How to declare a delegate
+
+public delegate void show(string s);
+
+Then show here is a delegate, that which contains methods which takes string as a parameter. 
+
+There are 2 types of delegates known as 
+
+	(i) Single Cast
+
+
+	A delegate that which contains only one method reference at a time known as single cast delegate. 
+
+	(ii) Multi Cast 
+	
+	A delegate that which contains teh refernce of more than one method at a time known as multi-cast delegate. 
+
+An event is any recognized work is performed like pressing key/clicking mouse etc...
+
+syntax : 
+
+access_modifier event delegateName actionName;
+
+event will be activated by using invoke();
+
+public delegate void Show(string str);
+public event Show event1;
+
+for(int i=0;i<10;i++) {
+   return i;
+}
+
+Method References : A method can return reference value of particular loop or calculated. 
+
+void show() {
+    void display() {
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
